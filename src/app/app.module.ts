@@ -29,7 +29,8 @@ let multipleReducers = {
     BrowserModule,
     CommonModule,
     FormsModule,
-    StoreModule.provideStore({people: reset(people), partyFilter})
+   // StoreModule.provideStore({people: reset(people), partyFilter})
+   StoreModule.provideStore(multipleReducers)
 
   ],
   providers: [],

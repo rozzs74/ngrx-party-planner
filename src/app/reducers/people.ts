@@ -1,3 +1,4 @@
+// Reducers for details
 const details = (state, action) => {
     switch(action.type) {
         case 'ADD_GUEST':
@@ -19,7 +20,7 @@ const details = (state, action) => {
 			return state;
     }   
 }
-
+// State for adding people
 export function people(state = [], action) {
 	switch (action.type) {
 		case 'ADD_PERSON':
